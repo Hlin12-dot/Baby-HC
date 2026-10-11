@@ -1,0 +1,184 @@
+{
+  "id": "mybaby",
+  "displayName": "宝宝合成",
+  "physics": {
+    "gravity": 2600,
+    "restitution": 0.38,
+    "friction": 0.955,
+    "dangerY": 142,
+    "overLimit": 1.5,
+    "assetFill": 0.92,
+    "mergeRatio": 0.98
+  },
+  "tiers": [
+    {
+      "src": "grape.jpg",
+      "name": "葡萄",
+      "r": 17.0,
+      "c1": "#b478dc",
+      "c2": "#8a4cb8",
+      "pc1": "#d4a8f0",
+      "pc2": "#6e3a96",
+      "meanColor": "#ad856d",
+      "file": "assets/01-grape.webp",
+      "slug": "grape"
+    },
+    {
+      "src": "cherry.jpg",
+      "name": "樱桃",
+      "r": 22.0,
+      "c1": "#dc465a",
+      "c2": "#b0283c",
+      "pc1": "#f07080",
+      "pc2": "#8c1c2e",
+      "meanColor": "#a57a63",
+      "file": "assets/02-cherry.webp",
+      "slug": "cherry"
+    },
+    {
+      "src": "orange.jpg",
+      "name": "橘子",
+      "r": 29.0,
+      "c1": "#ff963c",
+      "c2": "#e07020",
+      "pc1": "#ffb870",
+      "pc2": "#c05810",
+      "meanColor": "#8f6a5c",
+      "file": "assets/03-orange.webp",
+      "slug": "orange"
+    },
+    {
+      "src": "lemon.jpg",
+      "name": "柠檬",
+      "r": 35.0,
+      "c1": "#ffdc46",
+      "c2": "#e0b820",
+      "pc1": "#ffec80",
+      "pc2": "#c09810",
+      "meanColor": "#b48c6e",
+      "file": "assets/04-lemon.webp",
+      "slug": "lemon"
+    },
+    {
+      "src": "kiwi.jpg",
+      "name": "猕猴桃",
+      "r": 42.0,
+      "c1": "#78b446",
+      "c2": "#508828",
+      "pc1": "#a0d06a",
+      "pc2": "#386818",
+      "meanColor": "#8b7167",
+      "file": "assets/05-kiwi.webp",
+      "slug": "kiwi"
+    },
+    {
+      "src": "tomato.jpg",
+      "name": "番茄",
+      "r": 50.0,
+      "c1": "#e65046",
+      "c2": "#c03028",
+      "pc1": "#f88078",
+      "pc2": "#9c2018",
+      "meanColor": "#c2b2a8",
+      "file": "assets/06-tomato.webp",
+      "slug": "tomato"
+    },
+    {
+      "src": "peach.jpg",
+      "name": "桃子",
+      "r": 60.0,
+      "c1": "#ffaa8c",
+      "c2": "#e07860",
+      "pc1": "#ffc8b0",
+      "pc2": "#c05840",
+      "meanColor": "#8e826b",
+      "file": "assets/07-peach.webp",
+      "slug": "peach"
+    },
+    {
+      "src": "pineapple.jpg",
+      "name": "菠萝",
+      "r": 72.0,
+      "c1": "#f0c83c",
+      "c2": "#c8a020",
+      "pc1": "#ffe070",
+      "pc2": "#a08010",
+      "meanColor": "#f1e1d2",
+      "file": "assets/08-pineapple.webp",
+      "slug": "pineapple"
+    },
+    {
+      "src": "coconut.jpg",
+      "name": "椰子",
+      "r": 88.0,
+      "c1": "#b48250",
+      "c2": "#8c6030",
+      "pc1": "#d4a878",
+      "pc2": "#6e4820",
+      "meanColor": "#d2c8bc",
+      "file": "assets/09-coconut.webp",
+      "slug": "coconut"
+    },
+    {
+      "src": "halfmelon.jpg",
+      "name": "半瓜",
+      "r": 105.0,
+      "c1": "#5ab464",
+      "c2": "#388848",
+      "pc1": "#88d490",
+      "pc2": "#286830",
+      "meanColor": "#bcb5a9",
+      "file": "assets/10-halfmelon.webp",
+      "slug": "halfmelon"
+    },
+    {
+      "src": "watermelon.jpg",
+      "name": "大西瓜",
+      "r": 124.0,
+      "c1": "#28a046",
+      "c2": "#187830",
+      "pc1": "#50c868",
+      "pc2": "#105820",
+      "bonus": 500.0,
+      "meanColor": "#ecd2b5",
+      "file": "assets/11-watermelon.webp",
+      "slug": "watermelon"
+    }
+  ],
+  "mergeScore": [
+    0,
+    1,
+    3,
+    6,
+    10,
+    15,
+    21,
+    28,
+    36,
+    45,
+    55
+  ],
+  "reviveStep": 2000,
+  "colors": {
+    "brand": "#ff6b6b",
+    "ink": "#4a3325",
+    "cream": "#fff7ec"
+  },
+  "images": {
+    "sourceDir": "assets-src/mybaby",
+    "qrSponsor": ""
+  },
+  "leaderboard": {
+    "mode": "local",
+    "cloudPrefix": ""
+  },
+  "assets": {
+    "dir": "assets",
+    "parts": "assets/parts.js",
+    "blur": "assets/blur.js"
+  },
+  "pipeline": {
+    "fill": 0.92,
+    "size": 512
+  }
+}
